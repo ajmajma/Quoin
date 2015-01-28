@@ -11,8 +11,11 @@ Uknowns :
 
 Sprint 1 -
 	Set up basic templates and hooks for allowing user to buy and Use pass.
+
 	Set up all general hooks for functions.
+
 	Determine object for user considering info provided on SRS
+
 	Set up basic javascript testing
 
 		My goal with sprtint 1 is to set a good foundation to build off of moving forward
@@ -20,17 +23,25 @@ Sprint 1 -
 
 Sprint 2 -
 	Verification on form
+
 	Purchasing logic
+
 	Send (purchase) new pass
+
 	Recieve and verify of monthly pass (user swipes card and object comes in to use)
+
 	Flush out UI
 
 
 Sprint 3 -
 	Check Balance
+
 	Verify montlhy pass type on use 
+
 	Edge case scenarios
+
 	Add Verifications for Age/student/worker discounts
+	
 	Create Discount filter
 
 
