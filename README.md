@@ -10,6 +10,7 @@ Uknowns :
 
 
 Sprint 1 -
+
 	Set up basic templates and hooks for allowing user to buy and Use pass.
 
 	Set up all general hooks for functions.
@@ -22,6 +23,7 @@ Sprint 1 -
 
 
 Sprint 2 -
+
 	Verification on form
 
 	Purchasing logic
@@ -34,6 +36,7 @@ Sprint 2 -
 
 
 Sprint 3 -
+
 	Check Balance
 
 	Verify montlhy pass type on use 
@@ -41,7 +44,7 @@ Sprint 3 -
 	Edge case scenarios
 
 	Add Verifications for Age/student/worker discounts
-	
+
 	Create Discount filter
 
 
