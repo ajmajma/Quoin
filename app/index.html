@@ -1,0 +1,49 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>Quoin App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <!-- Vendor css -->
+      
+        <!-- Vendor css -->
+
+        <!-- App css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- App css -->
+    </head>    
+    <body ng-app="quoinApp">
+
+    	<div class="container">
+
+      		<div class="header">
+				<ul class="nav nav-pills pull-right">
+          I would like to :
+					<li class="active"><a ng-href="#/">Purchase A Pass</a></li>
+					<li><a ng-href="#/usePass">Use My Pass</a></li>
+				</ul>
+      		</div>
+  	
+  			<div ng-view=""></div>
+
+			<div class="footer">
+			</div>
+  		</div>
+
+	<!-- Vendor js -->
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-route/angular-route.js"></script>
+	<!-- Vendor js -->
+
+	<!-- App js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controller/MainCtrl.js"></script>
+    <script src="scripts/controller/UsePassCtrl.js"></script>
+    <script src="scripts/services/passFactory.js"></script>
+    <script src="scripts/filters/discount.js"></script>
+    <!-- App js -->
+</body>
+</html>
