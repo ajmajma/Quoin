@@ -1,8 +1,8 @@
-# QUOIN CODING EXERCISE
+#QUOIN CODING EXERCISE
 
 Alex Moser - January 2015
 
-This is split up into 3 sprints accordingly considering a few uknowns, applied front a front end perspective.
+This is split up into 3 sprints accordingly considering a few uknowns, applied front a front end perspective. I tried to order by importance, making sprint 1 the most important items/foundational things with the clause being this can ofcourse change based off clients needs.
 
 Uknowns :
 	Unsure if there are deliverables for each sprint, of if project is to be complete and handed in by end of sprint 3
@@ -15,12 +15,12 @@ Sprint 1 -
 	Determine object for user considering info provided on SRS
 	Set up basic javascript testing
 
-		##My goal with sprtint 1 is to set a good foundation to build off of moving forward
+		My goal with sprtint 1 is to set a good foundation to build off of moving forward
 
 
 Sprint 2 -
+	Verification on form
 	Purchasing logic
-	Verify montlhy pass type on use - compare pass object to 
 	Send (purchase) new pass
 	Recieve and verify of monthly pass (user swipes card and object comes in to use)
 	Flush out UI
@@ -28,6 +28,7 @@ Sprint 2 -
 
 Sprint 3 -
 	Check Balance
+	Verify montlhy pass type on use 
 	Edge case scenarios
 	Add Verifications for Age/student/worker discounts
 	Create Discount filter
@@ -38,11 +39,11 @@ Sprint 3 -
 
   local dev server
 
-  ##grunt server
+			grunt server
 
   to test
 
-  ##grunt karma 
+			grunt karma 
 
 
 
