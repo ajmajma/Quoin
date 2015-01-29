@@ -55,6 +55,8 @@ Sprint 3 -
 
 			grunt server
 
+	then localhost:9000
+
   to test
 
 			grunt karma 
