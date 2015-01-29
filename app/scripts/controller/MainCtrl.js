@@ -32,13 +32,13 @@ angular.module('quoinApp')
       if($scope.typeSelect.id === 0){
         //we would do something like var isStudent = studentCheck ? true : false; to check the inputs
         $scope.myPass = {'type' : 0, 'isElderly' : false, 'isStudent' : false, 'isWorker' : false, 'validBus' : true, 'validSubway' : true, 'validCommuter' : false };
-        alert("Purchased Monthly " + $scope.transportSelect.name + " pass");
+        //alert("Purchased Monthly " + $scope.transportSelect.name + " pass");
      }else if($scope.typeSelect.id === 1){
 
         var storeAmount = parseFloat($scope.unlimitedAmount.amount).toFixed(2);
         $scope.myPass = {'type' : 1, 'isElderly' : false, 'isStudent' : false, 'isWorker' : false, 'validBus' : true, 'validSubway' : true, 'validCommuter' : false, 'balance' : storeAmount };
         //confirmation
-        alert("Purchased prepaid " + $scope.transportSelect.name + " pass with " + storeAmount + " credit");
+        //alert("Purchased prepaid " + $scope.transportSelect.name + " pass with " + storeAmount + " credit");
       }
     }
 

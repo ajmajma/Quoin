@@ -35,7 +35,7 @@ describe('Unit: MainCtrl', function() {
       expect(scope.myPass).toBeUndefined();
       //choose select  2
       scope.typeSelect = {"id":1,"name":"Prepaid"};
-      scope.unlimitedAmount = 5.50;
+      scope.unlimitedAmount.amount = 5.50;
       scope.purchasePass();
       expect(scope.myPass).toEqual({'type' : 1, 'isElderly' : false, 'isStudent' : false, 'isWorker' : false, 'validBus' : true, 'validSubway' : true, 'validCommuter' : false, 'balance' : parseFloat(5.50).toFixed(2) });
    });
