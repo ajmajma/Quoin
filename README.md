@@ -62,6 +62,8 @@ Sprint 3 -
 			grunt karma 
 
 
+	note: karma tests off of PhantomJS
+
 
   My Time was spent :
 
