@@ -10,7 +10,6 @@
 		<p>Use Your Prepaid pass</p>
 		<p>What type of transport?</p>
 		<select ng-model="transportSelect" ng-options="item.id as item.name for item in modeOfTransport"> </select>
-		{{discount}}
 
 		<p>Total {{transportSelect.price | discount: discount | currency}}</p>
 
