@@ -11,6 +11,6 @@
 angular.module('quoinApp')
   .filter('discount', function(){
   return function(input, discount){
-     	if (input) return  input*(discount);
+     	if (input) return  input*(1-discount);
     };
   });

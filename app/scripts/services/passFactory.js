@@ -23,7 +23,7 @@ angular.module('quoinApp')
 
     //current users pass
     //type is shared with passTypes 'id' for relationship
-    var pass = {'id' : 543, 'type' : 1, 'isElderly' : false, 'isStudent' : false, 'isWorker' : false, 'validBus' : true, 'validSubway' : true, 'validCommuter' : false };
+    var pass = {'id' : 543, 'type' : 0, 'isElderly' : false, 'isStudent' : false, 'isWorker' : false, 'validBus' : true, 'validSubway' : true, 'validCommuter' : false };
     //if it were prepaid it would have balance key like so (and type would be 1)
     //var pass = {'id' : 543, 'type' : 1, 'isElderly' : false, 'isStudent' : false, 'isWorker' : false,  'validBus' : true, 'validSubway' : true, 'validCommuter' : false , 'balance' : 10.75};
 

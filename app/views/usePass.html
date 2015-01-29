@@ -1,19 +1,22 @@
+	<button ng-click="swapUserTest()">Swap to Prepaid</button>
+
 	<div class="row" ng-show="user.type === 0">
 		<p>Use Your Monthly pass</p>
 		<p>What type of transport?</p>
 		<select ng-model="transportSelect" ng-options="item as item.name for item in modeOfTransport"> </select>
 
-		<button>Use Pass</button>
+		<button ng-click="usePassNow()">Use Pass</button>
 	</div>
 
 	<div class="row" ng-show="user.type === 1">
 		<p>Use Your Prepaid pass</p>
 		<p>What type of transport?</p>
-		<select ng-model="transportSelect" ng-options="item.id as item.name for item in modeOfTransport"> </select>
+		<select ng-model="transportSelect" ng-options="item as item.name for item in modeOfTransport"> </select>
+
 
 		<p>Total {{transportSelect.price | discount: discount | currency}}</p>
 
-		<button>Use Pass</button>
-		<button ng-click="checkBalance()">Check Balance</button>
-		<p ng-show="showBal">Balance : {{user.balance}}</p>
+		<button ng-click="usePassNow()">Use Pass</button>
+		<!-- we will tie this up into functionality later -->
+		<p >Balance : {{user.balance}}</p>
 	</div>
